@@ -2,15 +2,15 @@
 #include<stdio.h>
 
 int main() {
-    int eID;
+    int e$ID;
 
     printf("Enter employee's ID: ");
-    scanf("%d", &eID);
+    scanf("%d", &e$ID);
 
-    if (eID % 2 == 0) {
-        printf("Employee with ID %d is okay.\n", eID);
+    if (e$ID % 2 == 0) {
+        printf("Employee with ID %d is okay.\n", e$ID);
     } else {
-        printf("Employee with ID %d is not okay.\n", eID);
+        printf("Employee with ID %d is not okay.\n", e$ID);
     }
 
     return 0;
