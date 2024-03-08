@@ -4,7 +4,6 @@ function cToF(c) {
     return f;
 }
 
-
 var celsius = 30;
 var fahrenheit = cToF(celsius);
 console.log(celsius + " degrees Celsius is equal to " + fahrenheit + " degrees Fahrenheit.");
